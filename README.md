@@ -6,12 +6,22 @@ This example demonstrates the Essential JS 2 Grid in ASP.NET Core Razor Componen
 
 * Clone the application and open the command prompt from the downloaded location.
 
+* Run the below command line to Navigate the application folder.
+
+```cmd
+cd EJ2Application
+```
+
 * Run the below command line to restore the pacakges.
 
-> dotnet restore
+```cmd
+dotnet restore
+```
 
 * Run the below commandline to build the application and it will open in the unique localhost port.
 
-> dotnet run
+```cmd
+dotnet run
+```
 
 * Navigate to `<localhost>/Grid/Default` and the Grid component will render in the browser.
