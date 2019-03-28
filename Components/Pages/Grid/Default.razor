@@ -1,0 +1,25 @@
+@page "/Grid/Default"
+
+@using EJ2Application.Services
+@inject WeatherForecastService ForecastService
+@using Syncfusion.EJ2.RazorComponents.Grids
+
+<h2>Essential JS 2 Grid in Razor Components</h2>
+
+<EjsGrid id="Grid" DataSource="@forecasts" AllowPaging="true" AllowSorting="true">
+    <GridColumns>
+        <GridColumn Field=@nameof(WeatherForecast.Date) HeaderText="Date" Format="yMd" Type="date" Width="130"></GridColumn>
+        <GridColumn Field=@nameof(WeatherForecast.TemperatureC) HeaderText="Temp. (C)" Width="120"></GridColumn>
+        <GridColumn Field=@nameof(WeatherForecast.TemperatureF) HeaderText="Temp. (F)" Width="150"></GridColumn>        
+        <GridColumn Field=@nameof(WeatherForecast.Summary) HeaderText="Summary" Width="130"></GridColumn>
+    </GridColumns>
+</EjsGrid>
+
+@functions {
+    WeatherForecast[] forecasts;
+
+    protected override async Task OnInitAsync()
+    {
+        forecasts = await ForecastService.GetForecastAsync(DateTime.Now);
+    }
+}
