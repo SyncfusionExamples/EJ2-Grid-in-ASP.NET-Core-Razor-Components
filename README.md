@@ -1,6 +1,6 @@
-# EJ2 Grid in ASP.NET Core Razor Components
+# Syncfusion UI Grid in ASP.NET Core Razor Components
 
-This example demonstrates the Essential JS 2 Grid in ASP.NET Core Razor Component application.
+This example demonstrates the Syncfusion UI Grid in ASP.NET Core Razor Component application.
 
 ## Running the application
 
