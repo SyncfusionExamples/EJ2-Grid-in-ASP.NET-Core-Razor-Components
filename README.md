@@ -1,4 +1,4 @@
-# Syncfusion UI Grid in ASP.NET Core Razor Components
+# Syncfusion DataGrid in ASP.NET Core Razor Components
 
 This example demonstrates the Syncfusion UI Grid in ASP.NET Core Razor Component application.
 
