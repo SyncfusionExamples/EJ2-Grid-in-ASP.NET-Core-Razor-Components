@@ -22,26 +22,33 @@ This sample application showcases the implementation of the Syncfusion UI DataGr
 - Syncfusion EJ2 Razor Components NuGet packages
 - Valid Syncfusion license or community license
 
-## Running the application
+## Running the Application
 
-1. Clone the application and open the command prompt from the downloaded location.
+Follow the steps below to clone the repository, restore dependencies, build, and run the application.
 
-2. Run the below command line to Navigate the application folder.
+1. Clone the repository and navigate to the project directory:
 
-   ```cmd
-   cd EJ2Application
+   ```bash
+   git clone https://github.com/SyncfusionExamples/EJ2-Grid-in-ASP.NET-Core-Razor-Components.git
+   cd EJ2-Grid-in-ASP.NET-Core-Razor-Components
    ```
 
-3. Run the below command line to restore the pacakges.
+2. Restore the required NuGet packages:
 
-   ```cmd
+   ```bash
    dotnet restore
    ```
 
-4. Run the below commandline to build the application and it will open in the unique localhost port.
+3. Run the application using the .NET CLI or Visual Studio:
 
-   ```cmd
+   ```bash
    dotnet run
    ```
 
-5. Navigate to `<localhost>/Grid/Default` and the Grid component will render in the browser.
+4. Navigate to `<localhost>/Grid/Default` and the Grid component will render in the browser.
+
+## Additional Resources
+
+- [Getting Started with ASP.NET Core using Razor pages in Visual Studio](https://ej2.syncfusion.com/aspnetcore/documentation/getting-started/razor-pages)
+- [Syncfusion ASP.NET Core Grid Documentation](https://ej2.syncfusion.com/aspnetcore/documentation/grid)
+- [Syncfusion ASP.NET Core Demos](https://ej2.syncfusion.com/aspnetcore)
